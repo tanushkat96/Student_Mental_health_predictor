@@ -175,6 +175,7 @@ Computer Science Engineering
 Machine Learning & Web Application Development
 
 LinkedIn: https://www.linkedin.com/in/tanushka-tiwari2105/
+<br>
 GitHub: https://github.com/tanushkat96
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
