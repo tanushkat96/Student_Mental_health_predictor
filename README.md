@@ -27,10 +27,10 @@ The **Student Mental Health Analysis & Prediction System** is a machine learning
 
 The project includes:
 
-- A **Streamlit-based multi-page interface**  
-- A trained **Random Forest Classifier**  
-- A **visual analysis dashboard** with risk factors  
-- A **solutions page** providing curated wellness resources (yoga & meditation videos)  
+- A **Streamlit-based multi-page interface**
+- A trained **Random Forest Classifier**
+- A **visual analysis dashboard** with risk factors
+- A **solutions page** providing curated wellness resources (yoga & meditation videos)
 - A fully customized UI using an external **CSS file**
 
 This system aims to support early identification of mental health risks among students and provide actionable steps for improvement.
@@ -39,11 +39,11 @@ This system aims to support early identification of mental health risks among st
 
 ## Built With
 
-* [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-* [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
-* [![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
-* [![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-* [![Matplotlib](https://img.shields.io/badge/Matplotlib-013243?style=for-the-badge&logo=matplotlib&logoColor=white)](https://matplotlib.org/)
+- [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+- [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+- [![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
+- [![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+- [![Matplotlib](https://img.shields.io/badge/Matplotlib-013243?style=for-the-badge&logo=matplotlib&logoColor=white)](https://matplotlib.org/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -51,14 +51,14 @@ This system aims to support early identification of mental health risks among st
 
 ## Project Structure
 
-STUDENT_MENTAL_HEALTH_ANALYSIS/
+STUDENT*MENTAL_HEALTH_ANALYSIS/
 │
 ├── app.py # Home page
 │
 ├── pages/
-│ ├── 1_🧠_Quick_Assessment.py # Assessment form
-│ ├── 2_📊_Analysis.py # Analysis & visualizations
-│ └── 3_🌿_Solutions.py # Wellness resources
+│ ├── 1*🧠*Quick_Assessment.py # Assessment form
+│ ├── 2*📊*Analysis.py # Analysis & visualizations
+│ └── 3*🌿_Solutions.py # Wellness resources
 │
 ├── assets/
 │ ├── student_mental.png # Home page image/logo
@@ -72,7 +72,6 @@ STUDENT_MENTAL_HEALTH_ANALYSIS/
 ├── Student_Mental_Health_Analysis.ipynb # EDA & model training notebook
 └── README.md # Documentation
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
@@ -83,7 +82,7 @@ STUDENT_MENTAL_HEALTH_ANALYSIS/
   <img src="assets/flowchart.png" alt="Flow Diagram" style="width: 80%;">
 </div>
 
-*(Replace with your actual flowchart image if available.)*
+_(Replace with your actual flowchart image if available.)_
 
 ---
 
@@ -93,39 +92,47 @@ STUDENT_MENTAL_HEALTH_ANALYSIS/
   <img src="assets/architecture.png" alt="System Architecture" style="width: 80%;">
 </div>
 
-*(Replace with actual architecture diagram if available.)*
+_(Replace with actual architecture diagram if available.)_
 
 ---
 
 ## Key Features
 
 ### 1. Quick Assessment
+
 A short form capturing:
-- Gender  
-- Course  
-- CGPA  
-- Depression  
-- Anxiety  
-- Panic attacks  
-- Treatment history  
+
+- Gender
+- Course
+- CGPA
+- Depression
+- Anxiety
+- Panic attacks
+- Treatment history
 
 ### 2. AI-Based Prediction
+
 A **Random Forest classifier** predicts:
-- At Risk  
-- Not At Risk  
+
+- At Risk
+- Not At Risk
 
 ### 3. Visual Analysis Dashboard
+
 Includes:
-- Risk probability  
-- Risk factor breakdown  
-- Feature importance chart  
-- Personalized insights  
+
+- Risk probability
+- Risk factor breakdown
+- Feature importance chart
+- Personalized insights
 
 ### 4. Wellness Resources
+
 Curated content to help students improve mental well-being:
-- Meditation  
-- Breathing exercises  
-- Yoga routines  
+
+- Meditation
+- Breathing exercises
+- Yoga routines
 
 ---
 
@@ -133,21 +140,15 @@ Curated content to help students improve mental well-being:
 
 ### Step 1: Install Dependencies
 
-
 pip install streamlit pandas numpy scikit-learn matplotlib seaborn joblib
-
 
 ### Step 2: Run Application
 
-
 streamlit run app.py
-
 
 ### Step 3: Open in Browser
 
-
 http://localhost:8501
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,10 +172,10 @@ Distributed for academic and research purposes.
 
 **Tanushka Tiwari**  
 Computer Science Engineering  
-Machine Learning & Web Application Development  
+Machine Learning & Web Application Development
 
 LinkedIn: https://www.linkedin.com/in/tanushka-tiwari2105/
-GitHub: https://github.com/tanushkat96  
+GitHub: https://github.com/tanushkat96
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,14 +183,11 @@ GitHub: https://github.com/tanushkat96
 
 <!-- Badge Links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/your-username/your-repo-name.svg?style=for-the-badge
-[contributors-url]: https://github.com/your-username/your-repo-name/graphs/contributors
-
-[forks-shield]: https://img.shields.io/github/forks/your-username/your-repo-name.svg?style=for-the-badge
-[forks-url]: https://github.com/your-username/your-repo-name/network/members
-
-[stars-shield]: https://img.shields.io/github/stars/your-username/your-repo-name.svg?style=for-the-badge
-[stars-url]: https://github.com/your-username/your-repo-name/stargazers
-
-[issues-shield]: https://img.shields.io/github/issues/your-username/your-repo-name.svg?style=for-the-badge
-[issues-url]: https://github.com/your-username/your-repo-name/issues
+[contributors-shield]: https://img.shields.io/github/contributors/tanushkat96/Student_Mental_health_predictor.svg?style=for-the-badge
+[contributors-url]: https://github.com/tanushkat96/Student_Mental_health_predictor/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/tanushkat96/Student_Mental_health_predictor.svg?style=for-the-badge
+[forks-url]: https://github.com/tanushkat96/Student_Mental_health_predictor/network/members
+[stars-shield]: https://img.shields.io/github/stars/tanushkat96/Student_Mental_health_predictor.svg?style=for-the-badge
+[stars-url]: https://github.com/tanushkat96/Student_Mental_health_predictor/stargazers
+[issues-shield]: https://img.shields.io/github/issues/tanushkat96/Student_Mental_health_predictor.svg?style=for-the-badge
+[issues-url]: https://github.com/tanushkat96/Student_Mental_health_predictor/issues
